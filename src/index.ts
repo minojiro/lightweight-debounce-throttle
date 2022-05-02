@@ -15,14 +15,14 @@ export const debounce = <T extends any[]>(
 
   const cancel = () => {
     clearTimeout(t);
+    prepared = null;
   };
 
   const flush = () => {
-    cancel();
     if (prepared) {
       prepared();
-      prepared = null;
     }
+    cancel();
   };
 
   const exec = (...args: T) => {
