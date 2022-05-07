@@ -13,7 +13,6 @@
   "license": "ISC",
   "files": [
     "package.json",
-    "README.md",
     "dist"
   ],
   "devDependencies": {
