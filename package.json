@@ -10,7 +10,7 @@
     "test": "vitest --run"
   },
   "author": "minojiro <minojiro@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "package.json",
     "dist"
