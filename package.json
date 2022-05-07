@@ -1,6 +1,6 @@
 {
   "name": "lightweight-debounce-throttle",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "git://github.com/minojiro/lightweight-debounce-throttle",
   "description": "Lightweight TypeScript native debounce and throttle",
   "main": "dist/index.js",
